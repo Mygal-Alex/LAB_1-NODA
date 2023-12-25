@@ -7,7 +7,6 @@
     "node": "14.x"
   },
   "scripts": {
-    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
@@ -26,7 +25,8 @@
   },
   "homepage": "https://github.com/Mygal-Alex/LAB_1-NODA#readme",
   "dependencies": {
-    "aws-sdk": "^2.1046.0"
+    "aws-sdk": "^2.1046.0",
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "eslint": "^8.56.0",
